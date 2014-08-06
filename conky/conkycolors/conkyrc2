@@ -60,7 +60,7 @@ ${font Droid Sans:style=Bold:size=8}PRAYER TIMES $stippled_hr${font}
 #Asr: ${alignr}${execi 60 ipraytime | awk 'NR==12 {print $5}'}
 #Maghreb: ${alignr}${execi 60 ipraytime | awk 'NR==12 {print $6}'}
 #Isha': ${alignr}${execi 60 ipraytime | awk 'NR==12 {print $7}'}
-${execpi 6 /home/saftophobia/scripts/iprayer.sh}${color}
+${execpi 6 $HOME/scripts/iprayer.sh}${color}
 #####################
 # - Battery - #
 ######################
